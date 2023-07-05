@@ -40,6 +40,9 @@ function Head() {
     };
 
   }, []);
+
+
+  
   return (
     <nav className="nav">
       <i className="uil uil-bars navOpenBtn"></i>
