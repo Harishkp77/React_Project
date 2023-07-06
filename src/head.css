@@ -12,11 +12,11 @@ body {
 }
 .nav {
   position: fixed;
-  top: 0;
+  top: 50px;
   left: 0;
   width: 100%;
   padding: 15px 200px;
-  background: #4a98f7;
+  background: #f74a4a;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 .nav,

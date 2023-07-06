@@ -1,11 +1,19 @@
 import React from 'react';
 import './head.css';
-import Head from './Head';
+import Head from './hi/Head';
+
+import My from './hi/My';
 
 function App() {
   return (
-    <div>
+    <div className="container">
+     
+  
+      <My/>
+      
       <Head/>
+  
+      
     </div>
   );
 }
