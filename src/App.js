@@ -1,19 +1,13 @@
-import React from 'react';
-import './head.css';
-import Head from './hi/Head';
-
-import My from './hi/My';
+import React from "react";
+import "./head.css";
+import My from "./My Component/My";
+import Property from "./My Component/Property";
 
 function App() {
   return (
-    <div className="container">
-     
-     <Head/>
-      <My/>
-      
-      
-  
-      
+    <div>
+      <My name="subathra" />
+      <Property name="harish" />
     </div>
   );
 }
